@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Understanding the CSS Box Model and how it applies to web design." />
+    <meta name="keywords" content="CSS, box model, padding, margin, border, web design" />
+    <meta name="author" content="Your Name" />
+    <title>Understanding the CSS Box Model</title>
+    <link rel="stylesheet" href="resources/box_model_style.css">
+
+</head>
+
+<body>
+    <h1>The CSS Box Model</h1>
+
+    <p>
+        The CSS box model identifies the four parts of the HTML element that
+        can be styled. Let's consider each part.
+    </p>
+
+    <img src="resources/box_model_diagram.jpg" alt="CSS Box Model Diagram" width="400" height="300" />
+
+    <h2>The Four Parts of the CSS Box Model</h2>
+    <ol>
+        <li>Content</li>
+        <li>Padding</li>
+        <li>Border</li>
+        <li>Margin</li>
+    </ol>
+
+    <p>
+        Each HTML element has a content box. This is the part of the element
+        that contains the content. The content might be text, an image, or
+        nested HTML elements. The content box is just big enough to fit the
+        content. You can change the size of the content box by using the CSS
+        width and height properties.
+    </p>
+
+    <p>
+        Around the content is the padding, border, and margin. The size of
+        each of these can be set using CSS.
+    </p>
+
+    <h2>The CSS Box Model in Action</h2>
+    <h3>Text Content</h3>
+    <p class="text-box-model">
+        We will use this paragraph to demonstrate how the parts of the box
+        model work when the content is text. By adding the different CSS
+        properties, we can see the effect they have.
+    </p>
+
+    <h3>Image Content</h3>
+    <div class="image-container">
+        <img src="resources/border.jpg" alt="Example of Border Styles" width="646"/>
+    </a>
+
+    <table border="1">
+        <tr>
+            <th>Box Part</th>
+            <th>CSS Properties</th>
+            <th>Link to Reference</th>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>width<br>height</td>
+            <td>
+                <a href="https://www.w3schools.com/css/css_dimension.asp" title="Height and Width Guide">w3schools CSS
+                    Height and Width</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Padding</td>
+            <td>padding<br>padding-top<br>padding-right<br>padding-bottom<br>padding-left</td>
+            <td>
+                <a href="https://www.w3schools.com/css/css_padding.asp" title="CSS Padding Guide">w3schools CSS
+                    Padding</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Border</td>
+            <td>border<br>border-style<br>border-width<br>border-color</td>
+            <td>
+                <a href="https://www.w3schools.com/css/css_border.asp" title="CSS Borders Guide">w3schools CSS
+                    Borders</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Margin</td>
+            <td>margin<br>margin-top<br>margin-right<br>margin-bottom<br>margin-left</td>
+            <td>
+                <a href="https://www.w3schools.com/css/css_margin.asp" title="CSS Margins Guide">w3schools CSS
+                    Margins</a>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
