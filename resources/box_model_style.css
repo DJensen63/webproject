@@ -30,6 +30,30 @@ td {
   width: 646px; /* Set width of table */
 }
 
+/* Styles for the navigation elements */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
 a {
 	color: #FFFFFF;
 	font-weight: bold;
