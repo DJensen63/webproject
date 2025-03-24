@@ -1,0 +1,83 @@
+/*
+  color: #FFFFFF;
+  --accent-1: #003366; Dark Blue
+  --accent-2: #FF4500; Orange-Red
+*/
+
+body {
+	padding: 20px;
+	font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+	color: #003366; /* Use accent 1 */
+}
+
+h1 {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse; /* Remove gaps between borders */
+}
+
+th,
+td {
+	border: 2px solid #ff4500; /* Use accent 2 */
+	padding: 10px; /* Add padding inside cells */
+  width: 646px; /* Set width of table */
+}
+
+/* Styles for the navigation elements */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff4500; /* Change to accent 2 on hover */
+}
+
+p.text-box-model {
+	background-color: #003366;
+	color: white;
+	width: 500px;
+	padding: 15px;
+	border: 3px dashed #ff4500; /* Different border than table */
+	margin: 20px auto;
+}
+
+div.image-container {
+	background-color: #003366;
+  color: white;
+	width: 646px;
+	padding: 20px;
+	border: 5px double #ff4500; /* Different border style */
+	margin: 30px auto;
+}
