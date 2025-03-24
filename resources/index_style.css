@@ -1,22 +1,89 @@
+/*
+  Theme: Deep Space
+  background: #000000 (black)
+  text: #FFFFFF (white)
+  accent: #FF8C00 (dark orange)
+*/
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 24px 36px 24px;
+    font-size: 16px;
+    text-align: left;
+}
+
+h1, h2, h3 {
+    color: #FF8C00;
+}
+
+p, li, table {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: #333;
+    background-color: #222;
+    text-align: left;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li a {
     display: inline-block;
-    color: white;
-    text-align: center;
+    color: #FFFFFF;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
+    background-color: #FF8C00;
+    color: #000000;
+}
+
+a {
+    color: #FF8C00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #FF8C00;
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
     background-color: #111;
+    color: #FFFFFF;
+}
+
+th, td {
+    border: 2px solid #FF8C00;
+    padding: 12px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
 }
